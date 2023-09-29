@@ -1,27 +1,9 @@
-# ServicesAngular
+# Services em angular
+__Camada do Angular responsável pela parte lógica da aplicação__  
+* o mesmo arquivo.ts pode servir a mais de um `component`, muda o jeito de eles consumirem os dados
+* Usar service evita de sobrecarregar a camada do `component`
+* Não tem jeito certo ou errado mas, crie `services` por tipos de serviços, já que a proposta do angular é ser leve e de fácil manutenção ex.: service que é especialista em acessar a api
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+_note que não temos o .html do app.component já que usamos o `template` ao inves de `templateUrl`, assim podemos passar uma tag diretamente dentro do arquivo .ts
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# O projeto será um card de pokémon
