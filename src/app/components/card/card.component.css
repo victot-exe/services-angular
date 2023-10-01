@@ -16,6 +16,7 @@
 
 .card__title > h3{
   color: white;
+  text-transform: capitalize;
   }
 
 .card__body{
@@ -26,6 +27,8 @@
   height: 70%;
 }
 
+
+
 .card__stats{
   padding-top: 10px;
   display: flex;
@@ -35,9 +38,17 @@
 }
 
 .card__stats__type{
-  color: white;
+  color: black;
+  font-weight: bold;
   background-color: coral;
   padding: 5px;
   margin-right: 4px;
   border-radius: 5px;
+  text-transform: capitalize;
+}
+
+.card__body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
